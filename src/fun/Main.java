@@ -9,8 +9,7 @@ public class Main {
 		
 		int opcion, respuesta = 0;		
 		
-		do {
-			
+		do {			
 			menu();
 			Scanner entrada = new Scanner(System.in);
 			
@@ -32,7 +31,15 @@ public class Main {
 						System.out.println("Today, both are smiling");												
 						System.out.println("\nWe are in trouble?: " + monkeyTrouble1.inTrouble(true, true));
 						System.out.println("#########################");	
-						break;				
+						break;
+						
+					case 2:
+						System.out.println("2. altPairs");
+						String altPairs = "Given a string, return a string made of" 
+								+ "0,1, 4,5, 8,9 ... "
+								+ "so 'kittens' yields 'kien'."
+								+ "\n\t fuente: http://codingbat.com/prob/p121596";
+						System.out.println(altPairs);
 				}
 			}
 			
@@ -57,10 +64,9 @@ public class Main {
 		System.out.println("\n\t\"No puedo enseñar nada a nadie. Solo puedo hacerlos pensar\"\n\tSócrates");
 		System.out.println("\nSi fuerza quieres, seleccionar una opción debes.");
 				
-		System.out.println("\n-----------------");
-		
+		System.out.println("\n-----------------");		
 		System.out.println("1. monkeyTrouble");
-		System.out.println("2. ");
+		System.out.println("2. altPairs");
 		System.out.println("3. ");
 		System.out.println("4. ");
 		System.out.println("5. ");
@@ -73,8 +79,7 @@ public class Main {
 		System.out.println("12. ");
 		System.out.println("13. ");
 		System.out.println("14. ");
-		System.out.println("15 ");
-				
+		System.out.println("15 ");				
 		System.out.println("------------------");
 		
 	}
