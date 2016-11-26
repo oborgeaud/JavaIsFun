@@ -3,6 +3,12 @@ package fun;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
+/*
+ * Una serie de algoritmos con la finalidad de practicar el lenguaje Java
+ * y el versionado con git.
+ * Probablemente encontraran muchos errores en el código o 
+ * situaciones donde se escribe codigo de más. Estoy empezando !
+*/
 public class Main {
 
 	public static void main(String[] args) {
